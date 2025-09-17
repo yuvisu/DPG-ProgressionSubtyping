@@ -1,0 +1,23 @@
+{
+    "model_type": "Magnet",
+    "root_dir":"../temp",
+    "dataset_dir": "nebor_200",
+    "dataset_filename": "output_node_features.pickle",
+    "adj_matrix_filename": "adj_matrix.pickle",
+    "model_id": "whole_dataset",
+    "models_dir": "Models", 
+    "output_root_dir":"../temp/nebor_200_Results_gamma_0_dim_64",
+    "output_features_dir": "Output/feature_embeddings",
+    "features_embedding_file_name": "features_embedding.npy",
+    "n_clusters":3,
+    "distance_matrix": "euclidean",
+    "linkage" : "ward",
+    "output_cluster_dir": "Output/Cluster",
+    "cluster_filename": "Cluster.csv",
+    "cluster_params": {
+        "n_clusters": 3,
+        "metric": "softdtw",
+        "n_init": 5,
+        "random_state": 42
+    }
+}
